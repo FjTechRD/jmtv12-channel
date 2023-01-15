@@ -1,0 +1,16 @@
+.services__page {
+  height: 100%;
+}
+
+.main_bg-services {
+  color: #fff;
+  background-image: url(/img/services-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

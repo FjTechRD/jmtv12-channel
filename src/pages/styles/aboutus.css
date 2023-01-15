@@ -1,0 +1,15 @@
+.about-us__page {
+  height: 100%;
+}
+.main-bg__about-us {
+  color: #fff;
+  background-image: url(/img/about-us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
