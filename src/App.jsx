@@ -6,8 +6,6 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Live from "./pages/Live";
 import Services from "./pages/Services";
-import Footer from "./shared/Footer";
-import Header from "./shared/Header";
 
 import "./styles/App.css";
 
