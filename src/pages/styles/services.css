@@ -1,8 +1,8 @@
 .services__page {
-  height: 100%;
+  height: 100vh;
 }
 
-.main_bg-services {
+.main-bg__services {
   color: #fff;
   background-image: url(/img/services-bg.jpg);
   background-repeat: no-repeat;
@@ -13,4 +13,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.services__content-scroll {
+  position: absolute;
+  margin-top: 9.2rem;
+  left: 5.8rem;
+  height: 73rem;
+  overflow: auto;
+}
+
+.events__information {
+  width: 80%;
+}
+
+.events__information img {
+  width: 100%;
 }
