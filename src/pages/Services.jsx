@@ -9,22 +9,29 @@ const Services = () => {
           <div className="services__content">
             <article className="services__events">
               <div className="events__header">
-                <h2>Transmision y Grabación de eventos</h2>
+                <h2>Transmision & Grabación</h2>
               </div>
               <div className="events__information">
                 <div className="events__information-stream">
                   <img src="/img/streaming.jpg" alt="" />
-                  <p>
-                    Realizamos la transmisión en de evento en vivo en varias
-                    plataformas digitales y redes sociales.
-                  </p>
+                  <div className="stream__information">
+                    <p>
+                      Realizamos la transmisión en de evento en vivo en varias
+                      plataformas digitales y redes sociales.
+                    </p>
+                    <div className="social-media__examples">
+                      <h4>Revisa alguno de nuestros trabajos</h4>
+                    </div>
+                  </div>
                 </div>
+
                 <div className="events__information-record">
                   <img src="/img/grabacion.jpg" alt="" />
                   <p>
                     Realizamos la grabación en alta calidad para manejo y
                     post-produccion del mismo
                   </p>
+                  <div className="social-media__examples"></div>
                 </div>
               </div>
             </article>

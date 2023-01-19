@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import ProtectedRoutes from "./components/ProtectedRoutes";
 import WelcomePage from "./components/WelcomePage";
 import AboutUs from "./pages/aboutUs";

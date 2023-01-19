@@ -18,7 +18,7 @@ const ProtectedRoutes = () => {
         <Footer />
       </div>
     );
-  } else {
+  } else if (setIsLoggin("")) {
     return navigate("/");
   }
 };
