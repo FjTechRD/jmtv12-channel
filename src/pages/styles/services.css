@@ -1,3 +1,5 @@
+/*! GENERALES */
+
 .services__page {
   height: 100vh;
 }
@@ -14,13 +16,11 @@
   justify-content: center;
   align-items: center;
 }
-
 .services__content-scroll {
-  position: absolute;
-  margin-top: 12rem;
-  height: 73rem;
+  height: 60rem;
   overflow: auto;
-  padding: 0 5rem;
+  padding: 2rem 3rem 2rem 3rem;
+  text-align: center;
 }
 
 .services__content {
@@ -34,6 +34,8 @@
   width: 100%;
 }
 
+/*! EVENTOS STREAMING Y GRABACION*/
+
 .services__events {
   background-color: #20202099;
   padding: 1.8rem;
@@ -46,6 +48,25 @@
   margin-bottom: 2rem;
 }
 
+.events__information {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.events__information-stream,
+.events__information-record {
+  background-color: #2c2c2c;
+  border-radius: 2rem;
+  border: 2px solid rgb(172, 172, 172);
+  overflow: hidden;
+}
+
+.record__informartion {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: 0 0.8rem;
+}
 .stream__information {
   margin-top: 1rem;
   font-size: 1.5rem;
@@ -54,3 +75,61 @@
 .social-media__examples {
   padding: 2rem 0;
 }
+
+.examples__links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.react-icons__examples__links {
+  font-size: 3rem;
+  color: #fff;
+}
+
+/*! MARKETING & PUBLICIDAD */
+
+/** MARKETING & PUBLICIDAD - GENERALES */
+.services__marketing {
+  background-color: #20202099;
+  padding: 1.8rem;
+  border: solid 2px #fff;
+  border-radius: 2rem;
+  text-align: center;
+}
+.marketing__SEO-specialist,
+.marketing__advertising,
+.marketing__project-manager {
+  background-color: #2c2c2c;
+  border-radius: 2rem;
+  border: 2px solid rgb(172, 172, 172);
+  overflow: hidden;
+}
+
+/** MARKETING */
+
+.marketing__information {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.marketing__project-manager h3 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.project-manager__description,
+.seo__description,
+.advertising__description {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 2rem 1rem 2rem;
+}
+
+/*! PRODUCCION Y CONTENIDO */
+/*! SOCIAL MEDIA MARKETING */

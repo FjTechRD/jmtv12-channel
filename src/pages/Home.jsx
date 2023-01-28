@@ -9,7 +9,7 @@ const Home = () => {
     <main className="home__page">
       <section className="main_bg-home">
         <div className="home__content">
-          <h2>
+          <h2 className="home__user">
             Bienvenido/a
             {`\n ${user.name} ${user.lastname}`}
           </h2>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../shared/styles/header.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   FaList,
   FaHome,
@@ -41,26 +41,26 @@ const MobileMenu = () => {
               className: "react-icons",
             }}
           >
-            <Link to="/home" onClick={handleClickClose}>
+            <NavLink to="/home" onClick={handleClickClose}>
               <FaHome />
               Inicio
-            </Link>
-            <Link to="/live" onClick={handleClickClose}>
+            </NavLink>
+            <NavLink to="/live" onClick={handleClickClose}>
               <FaStream />
               En Vivo
-            </Link>
-            <Link to="/services" onClick={handleClickClose}>
+            </NavLink>
+            <NavLink to="/services" onClick={handleClickClose}>
               <FaWhmcs />
               Servicios
-            </Link>
-            <Link to="/contact" onClick={handleClickClose}>
+            </NavLink>
+            <NavLink to="/contact" onClick={handleClickClose}>
               <FaReadme />
               Contacto
-            </Link>
-            <Link to="/about-us" onClick={handleClickClose}>
+            </NavLink>
+            <NavLink to="/about-us" onClick={handleClickClose}>
               <FaEnvelopeOpenText />
               Sobre Nosotros
-            </Link>
+            </NavLink>
           </IconContext.Provider>
           <button
             className={`btn-close ${open && "open"}`}

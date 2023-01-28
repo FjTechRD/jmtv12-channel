@@ -3,9 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  background-color: #80808050;
+  background-color: #2c2c2c;
   width: 100%;
+  padding: 1rem 0;
 }
 
 .main-menu {
@@ -24,9 +24,9 @@
   color: #fff;
   outline: none;
   border: none;
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 1rem;
   border-radius: 4rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .logo__channel-menu {

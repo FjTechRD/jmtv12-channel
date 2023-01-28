@@ -15,10 +15,7 @@
 }
 
 .contact__content-scroll {
-  position: absolute;
-  margin-top: 9.2rem;
-  left: 5.8rem;
-  height: 73rem;
+  height: 55rem;
   overflow: auto;
 }
 
