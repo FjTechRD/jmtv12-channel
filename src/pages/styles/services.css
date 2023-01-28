@@ -34,15 +34,18 @@
   width: 100%;
 }
 
-/*! EVENTOS STREAMING Y GRABACION*/
-
-.services__events {
+.services__events,
+.services__marketing,
+.services__production,
+.services__social-media {
   background-color: #20202099;
   padding: 1.8rem;
   border: solid 2px #fff;
   border-radius: 2rem;
   text-align: center;
 }
+
+/*! EVENTOS STREAMING Y GRABACION*/
 
 .events__header {
   margin-bottom: 2rem;
@@ -91,13 +94,7 @@
 /*! MARKETING & PUBLICIDAD */
 
 /** MARKETING & PUBLICIDAD - GENERALES */
-.services__marketing {
-  background-color: #20202099;
-  padding: 1.8rem;
-  border: solid 2px #fff;
-  border-radius: 2rem;
-  text-align: center;
-}
+
 .marketing__SEO-specialist,
 .marketing__advertising,
 .marketing__project-manager {
@@ -116,7 +113,9 @@
   gap: 1rem;
 }
 
-.marketing__project-manager h3 {
+.marketing__project-manager h3,
+.marketing__SEO-specialist h3,
+.marketing__advertising h3 {
   font-size: 2rem;
   padding: 1rem 0;
 }
@@ -132,4 +131,63 @@
 }
 
 /*! PRODUCCION Y CONTENIDO */
+
+.marketing__information {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.production__information {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.production__video,
+.production__content,
+.production__planification {
+  background-color: #2c2c2c;
+  border-radius: 2rem;
+  border: 2px solid rgb(172, 172, 172);
+  overflow: hidden;
+}
+
+.production__video h3,
+.production__content h3,
+.production__planification h3 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.production__details-description {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
 /*! SOCIAL MEDIA MARKETING */
+
+.social-media__information {
+  margin-top: 1rem;
+  background-color: #2c2c2c;
+  border-radius: 2rem;
+  border: 2px solid rgb(172, 172, 172);
+  overflow: hidden;
+}
+
+.social-media__header img {
+  width: 100%;
+}
+
+.social-media__description {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem 1rem 1rem;
+}

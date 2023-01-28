@@ -5,7 +5,11 @@ const AboutUs = () => {
   return (
     <main className="about-us__page">
       <section className="main-bg__about-us">
-        <h3>About Us</h3>
+        <div className="about-us__btn-menu">
+          <button>STAFF</button>
+          <button>PROGRAMAS</button>
+          <button>COMUNCIADORES</button>
+        </div>
       </section>
     </main>
   );

@@ -13,3 +13,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.about-us__btn-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
