@@ -15,7 +15,7 @@ const Services = () => {
               </div>
               <div className="events__information">
                 <div className="events__information-stream">
-                  <img src="/img/streaming.jpg" alt="" />
+                  <img src="/img/services/streaming.webp" alt="" />
                   <div className="stream__information">
                     <p>
                       Realizamos la transmisión de su evento en vivo en varias
@@ -54,7 +54,7 @@ const Services = () => {
                 </div>
 
                 <div className="events__information-record">
-                  <img src="/img/grabacion.jpg" alt="" />
+                  <img src="/img/services/grabacion.webp" alt="" />
                   <div className="record__informartion">
                     <p>
                       Realizamos la grabación en alta calidad para manejo y
@@ -101,7 +101,7 @@ const Services = () => {
                 <div className="marketing__project-manager">
                   <h3>Project Manajer</h3>
                   <img
-                    src="/img/project-managers.png"
+                    src="/img/services/project-managers.webp"
                     alt="Imagen sobre Proyect Manager"
                   />
                   <ul className="project-manager__description">
@@ -121,7 +121,7 @@ const Services = () => {
                 </div>
                 <div className="marketing__SEO-specialist">
                   <h3>Posicionamiento SEO</h3>
-                  <img src="/img/SEO.jpg" alt="Imagene SEO" />
+                  <img src="/img/services/SEO.webp" alt="Imagene SEO" />
                   <ul className="seo__description">
                     <li>♦ Buscadores web y optimización.</li>
                     <li>
@@ -135,7 +135,7 @@ const Services = () => {
                 <div className="marketing__advertising">
                   <h3>Publicidad</h3>
                   <img
-                    src="/img/plan-de-medios.jpg"
+                    src="/img/services/plan-de-medios.webp"
                     alt="Imagen para trabajo de publicidad"
                   />
                   <ul className="advertising__description">
@@ -154,7 +154,7 @@ const Services = () => {
                   <div className="production__video">
                     <h3>Producción de Video</h3>
                     <img
-                      src="/img/video-production.jpeg"
+                      src="/img/services/video-production.webp"
                       alt="imagen para produccion de video"
                     />
                     <ul className="production__details-description">
@@ -169,7 +169,7 @@ const Services = () => {
                   <div className="production__content">
                     <h3>Contenido y publicación</h3>
                     <img
-                      src="/img/content-production.png"
+                      src="/img/services/content-production.webp"
                       alt="imagen de produccion de contenido"
                     />
                     <ul className="production__details-description">
@@ -182,7 +182,7 @@ const Services = () => {
                   <div className="production__planification">
                     <h3>Planificación y Desarollo</h3>
                     <img
-                      src="/img/content-planification.webp"
+                      src="/img/services/content-planification.webp"
                       alt="desarollo y planificacion imagen"
                     />
                     <ul className="production__details-description">
@@ -200,7 +200,7 @@ const Services = () => {
                 <h2>Social Media Marketing</h2>
                 <div className="social-media__information">
                   <img
-                    src="/img/social-media-marketing.png"
+                    src="/img/services/social-media-marketing.webp"
                     alt="Imagen de social media"
                   />
                   <ul className="social-media__description">

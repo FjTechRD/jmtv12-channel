@@ -3,7 +3,7 @@
 }
 .main-bg__about-us {
   color: #fff;
-  background-image: url(/img/about-us.jpg);
+  background-image: url(/img/bgImages/about-us.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -17,5 +17,13 @@
 .about-us__btn-menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 4rem;
+}
+
+.about-us__btn-menu button {
+  background-color: #20202095;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
 }

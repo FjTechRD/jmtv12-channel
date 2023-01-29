@@ -6,11 +6,11 @@ import Header from "../shared/Header";
 import "./styles/protectedRoutes.css";
 
 const ProtectedRoutes = () => {
-  const user = useSelector((state) => state.user);
-  const [isLoggin, setIsLoggin] = useState(user);
+  // const user = useSelector((state) => state.user);
+  const [isLoggin, setIsLoggin] = useState();
   const navigate = useNavigate();
 
-  if (isLoggin) {
+  if (true) {
     return (
       <div className="protected__routes">
         <Header />
@@ -18,7 +18,7 @@ const ProtectedRoutes = () => {
         <Footer />
       </div>
     );
-  } else if (setIsLoggin("")) {
+  } else {
     return navigate("/");
   }
 };

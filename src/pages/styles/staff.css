@@ -1,0 +1,82 @@
+.staff__page {
+  height: 100%;
+}
+
+.staff__page img {
+  width: 20rem;
+  border-radius: 50%;
+  border: solid 3px rgba(0, 4, 255, 0.637);
+}
+
+.main-bg__staff {
+  color: #fff;
+  background-image: url(/img/bgImages/staff-earth-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-scroll__container {
+  max-height: 45rem;
+  overflow: auto;
+}
+
+.staff__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+/** CARD STYLES */
+
+.staff__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  background-color: #010031b2;
+  border: solid 2px #fff;
+  padding: 1.5rem 1rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.card-header__data {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.card__body {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card__body-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card__footer {
+  margin-top: 1rem;
+  display: flex;
+  background-color: #44444498;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border-radius: solid 2px #fff;
+  gap: 0.5rem;
+}
+
+.react-icons-staff {
+  color: #fff;
+  font-size: 2.5rem;
+}

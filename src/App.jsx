@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Live from "./pages/Live";
 import Services from "./pages/Services";
+import Staff from "./pages/Staff";
 
 import "./styles/App.css";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/staff" element={<Staff />} />
         </Route>
       </Routes>
       {/* <Footer /> */}
