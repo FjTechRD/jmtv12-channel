@@ -25,6 +25,10 @@
   overflow: auto;
 }
 
+.cards-scroll__container::-webkit-scrollbar {
+  display: none;
+}
+
 .staff__cards {
   display: flex;
   flex-direction: column;
@@ -79,4 +83,56 @@
 .react-icons-staff {
   color: #fff;
   font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .main-bg__staff {
+    color: #fff;
+    background-image: url(/img/bgImages/staff-earth-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100vw;
+    padding: 4rem 0;
+  }
+  .cards-scroll__container {
+    max-height: 45rem;
+    overflow: auto;
+  }
+  .cards-scroll__container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .staff__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+  .staff__page {
+    height: 100%;
+  }
+  .main-bg__staff {
+    color: #fff;
+    background-image: url(/img/bgImages/staff-earth-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100vw;
+  }
+  .cards-scroll__container {
+    max-height: 100rem;
+    overflow: hidden;
+  }
+
+  .staff__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
 }

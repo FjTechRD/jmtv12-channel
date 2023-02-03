@@ -111,3 +111,95 @@ textarea {
   color: #0400ff;
   transition: all 250ms ease;
 }
+
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+  .contact__content-scroll {
+    height: 90vh;
+    overflow: hidden;
+  }
+
+  .contact__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-content: center;
+    width: 80%;
+    margin: auto auto;
+    gap: 4rem;
+    padding-top: 2rem;
+  }
+
+  .contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #20202099;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+    border: solid 2px #fff;
+    width: 80rem;
+  }
+  .social-networks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    background-color: #49494999;
+    border: solid 2px #fff;
+    gap: 1.4rem;
+    width: 20rem;
+  }
+  .social__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    gap: 1rem;
+  }
+
+  .react-icons-contact {
+    font-size: 3rem;
+    color: #0059ff;
+  }
+
+  .social__icons:hover {
+    transform: scale(1.1);
+    filter: brightness(1.75);
+    color: #0400ff;
+    transition: all 250ms ease;
+  }
+
+  .form__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form__inputs input {
+    width: 70rem;
+    padding: 1rem;
+  }
+
+  .contact__form-formulary {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  textarea {
+    background-color: #202020;
+    outline: none;
+    border: solid 1px #fff;
+    border-radius: 2rem;
+    width: 70rem;
+    height: 18rem;
+  }
+}

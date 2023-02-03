@@ -9,12 +9,11 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
     <main className="contact__page">
-      <section className="main_bg-contact">
+      <div className="main_bg-contact">
         <div className="contact__content-scroll">
           <div className="contact__content">
             <article className="contact__information">
@@ -60,28 +59,46 @@ const Contact = () => {
                 }}
               >
                 <div className="social__icons">
-                  <Link /> <FaFacebookSquare />
+                  <a href="" className="social__icons">
+                    <FaFacebookSquare />
+                    <p className="social__text">Facebook</p>
+                  </a>
                 </div>
                 <div className="social__icons">
-                  <FaInstagramSquare />
+                  <a href="" className="social__icons">
+                    <FaInstagramSquare />
+                    <p>Instagram</p>
+                  </a>
                 </div>
                 <div className="social__icons">
-                  <FaYoutube />
+                  <a href="" className="social__icons">
+                    <FaYoutube />
+                    <p>Youtube</p>
+                  </a>
                 </div>
                 <div className="social__icons">
-                  <FaTiktok />
+                  <a href="" className="social__icons">
+                    <FaTiktok />
+                    <p>Tik Tok</p>
+                  </a>
                 </div>
                 <div className="social__icons">
-                  <FaTwitterSquare />
+                  <a href="" className="social__icons">
+                    <FaTwitterSquare />
+                    <p>Twiiter</p>
+                  </a>
                 </div>
-                <div className="social__icons">
-                  <FaLinkedin />
+                <div>
+                  <a href="" className="social__icons">
+                    <FaLinkedin />
+                    <p>LinkedIn</p>
+                  </a>
                 </div>
               </IconContext.Provider>
             </article>
           </div>
         </div>
-      </section>
+      </div>
     </main>
   );
 };

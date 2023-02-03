@@ -22,3 +22,35 @@
   width: 100%;
   gap: 2rem;
 }
+
+@media (min-width: 768px) {
+  .streaming-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    font-size: 3rem;
+  }
+  .streaming-video {
+    width: 55rem;
+    height: 30rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .streaming-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: rem;
+    font-size: 4rem;
+  }
+  .streaming-video {
+    width: 100rem;
+    height: 60rem;
+  }
+}

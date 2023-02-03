@@ -22,7 +22,7 @@ const Staff = () => {
             <article className="staff__card">
               <div className="card__header">
                 <div className="card-header__data">
-                  <h3 className="card-header__name">Orlando Muller Santana</h3>
+                  <h3 className="card-header__name">Orlando Muller</h3>
                   <h4 className="card-header__name">Presidente</h4>
                 </div>
                 <img
