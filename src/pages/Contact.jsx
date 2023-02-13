@@ -28,7 +28,9 @@ const Contact = () => {
               </div>
               <div className="contact-description">
                 <h4>Calle principal de la unión, Sosúa, Puerto Plata 57000</h4>
-                <h4>+1 (809) 586-0122 || +1 (809) 613-0612</h4>
+                <h4 className="telephone__number">
+                  +1 (809) 586-0122 || +1 (809) 613-0612
+                </h4>
                 <h4>info@jmtv12.com</h4>
               </div>
             </article>
@@ -59,39 +61,63 @@ const Contact = () => {
                 }}
               >
                 <div className="social__icons">
-                  <a href="" className="social__icons">
+                  <a
+                    href="https://www.facebook.com/jmtv12"
+                    className="social__icons"
+                    target="_blank"
+                  >
                     <FaFacebookSquare />
-                    <p className="social__text">Facebook</p>
+                    <p className="text__social">Facebook</p>
                   </a>
                 </div>
                 <div className="social__icons">
-                  <a href="" className="social__icons">
+                  <a
+                    href="https://www.instagram.com/jmtvcanal.12/"
+                    className="social__icons"
+                    target="_blank"
+                  >
                     <FaInstagramSquare />
-                    <p>Instagram</p>
+                    <p className="text__social">Instagram</p>
                   </a>
                 </div>
                 <div className="social__icons">
-                  <a href="" className="social__icons">
+                  <a
+                    href="https://www.youtube.com/@jmtvcanal1237"
+                    className="social__icons"
+                    target="_blank"
+                  >
                     <FaYoutube />
-                    <p>Youtube</p>
+                    <p className="text__social">Youtube</p>
                   </a>
                 </div>
                 <div className="social__icons">
-                  <a href="" className="social__icons">
+                  <a
+                    href="https://www.tiktok.com/@jmtvcanal12"
+                    className="social__icons"
+                    target="_blank"
+                  >
                     <FaTiktok />
-                    <p>Tik Tok</p>
+                    <p className="text__social">Tik Tok</p>
                   </a>
                 </div>
                 <div className="social__icons">
-                  <a href="" className="social__icons">
+                  <a
+                    href="https://twitter.com/JMTv82440280"
+                    className="social__icons"
+                    target="_blank"
+                  >
                     <FaTwitterSquare />
-                    <p>Twiiter</p>
+                    <p className="text__social">Twiiter</p>
                   </a>
                 </div>
                 <div>
-                  <a href="" className="social__icons">
+                  <a
+                    href="https://www.linkedin.com/company/jmtv-canal-12/"
+                    className="social__icons"
+                    target="_blank"
+                  >
                     <FaLinkedin />
-                    <p>LinkedIn</p>
+                    <p className="text__social">LinkedIn</p>
                   </a>
                 </div>
               </IconContext.Provider>

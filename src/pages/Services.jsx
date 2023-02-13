@@ -18,11 +18,11 @@ const Services = () => {
                   <img src="/img/services/streaming.webp" alt="" />
                   <div className="stream__information">
                     <p>
-                      Realizamos la transmisión de su evento en vivo en varias
+                      Realizamos la transmisión de sus eventos en vivo en varias
                       plataformas digitales y redes sociales.
                     </p>
                     <div className="social-media__examples">
-                      <h4>Revisa alguno de nuestros trabajos</h4>
+                      <h4>Aqui alguno de nuestros trabajos</h4>
                       <div className="examples__links">
                         <IconContext.Provider
                           value={{
@@ -61,7 +61,7 @@ const Services = () => {
                       post-produccion del mismo
                     </p>
                     <div className="social-media__examples">
-                      <h4>Revisa alguno de nuestros trabajos</h4>
+                      <h4>Aqui alguno de nuestros trabajos</h4>
                       <div className="examples__links">
                         <IconContext.Provider
                           value={{

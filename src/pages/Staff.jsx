@@ -23,7 +23,7 @@ const Staff = () => {
               <div className="card__header">
                 <div className="card-header__data">
                   <h3 className="card-header__name">Orlando Muller</h3>
-                  <h4 className="card-header__name">Presidente</h4>
+                  <h4 className="card-header__name">Presidente / Director</h4>
                 </div>
                 <img
                   src="/img/employees/orlandomuller.webp"
@@ -100,7 +100,7 @@ const Staff = () => {
                 </IconContext.Provider>
               </div>
             </article>
-            {/* EDGAR THOMAS */}
+            {/* EDGAR THOMAS 
             <article className="staff__card">
               <div className="card__header">
                 <div className="card-header__data">
@@ -181,7 +181,7 @@ const Staff = () => {
                   </div>
                 </IconContext.Provider>
               </div>
-            </article>
+            </article>*/}
             {/* JAVIER GONZALEZ */}
             <article className="staff__card">
               <div className="card__header">
@@ -215,7 +215,7 @@ const Staff = () => {
                 >
                   <div className="social__icons">
                     <a
-                      href="https://www.facebook.com/orlandomuller"
+                      href="https://www.facebook.com/profile.php?id=100087280723773"
                       target="_blank"
                     >
                       <FaFacebookSquare />
@@ -223,7 +223,7 @@ const Staff = () => {
                   </div>
                   <div className="social__icons">
                     <a
-                      href="https://www.instagram.com/orlandomuller7/"
+                      href="https://www.instagram.com/fjtechnologyrdrd/"
                       target="_blank"
                     >
                       <FaInstagramSquare />
@@ -264,7 +264,7 @@ const Staff = () => {
                 </IconContext.Provider>
               </div>
             </article>
-            {/* SOBEUDA MOREL */}
+            {/* SOBEUDA MOREL 
             <article className="staff__card">
               <div className="card__header">
                 <div className="card-header__data">
@@ -281,11 +281,11 @@ const Staff = () => {
                   <h2>Contact Info</h2>
                   <div className="card__body-info">
                     <FaPhoneSquareAlt />
-                    <p>(809) 613-0612</p>
+                    <p>(809) 586-0122</p>
                   </div>
                   <div className="card__body-info">
                     <FaMailBulk />
-                    <p></p>
+                    <p>info@jmtv12.com</p>
                   </div>
                 </div>
               </IconContext.Provider>
@@ -296,16 +296,13 @@ const Staff = () => {
                   }}
                 >
                   <div className="social__icons">
-                    <a
-                      href="https://www.facebook.com/orlandomuller"
-                      target="_blank"
-                    >
+                    <a href="https://www.facebook.com/jmtv12" target="_blank">
                       <FaFacebookSquare />
                     </a>
                   </div>
                   <div className="social__icons">
                     <a
-                      href="https://www.instagram.com/orlandomuller7/"
+                      href="https://www.instagram.com/jmtvcanal.12/"
                       target="_blank"
                     >
                       <FaInstagramSquare />
@@ -313,7 +310,7 @@ const Staff = () => {
                   </div>
                   <div className="social__icons">
                     <a
-                      href="https://www.youtube.com/@jmtvcanal1237"
+                      href="https://www.youtube.com/channel/UCR5qt_ljvfQwlgqnnaNWfTA"
                       target="_blank"
                     >
                       <FaYoutube />
@@ -328,10 +325,7 @@ const Staff = () => {
                     </a>
                   </div>
                   <div className="social__icons">
-                    <a
-                      href="https://twitter.com/orlandomuller7"
-                      target="_blank"
-                    >
+                    <a href="https://twitter.com/JMTv82440280" target="_blank">
                       <FaTwitterSquare />
                     </a>
                   </div>
@@ -345,7 +339,7 @@ const Staff = () => {
                   </div>
                 </IconContext.Provider>
               </div>
-            </article>
+            </article>*/}
             {/* JOSÉ RAMON */}
             <article className="staff__card">
               <div className="card__header">
@@ -363,11 +357,11 @@ const Staff = () => {
                   <h2>Contact Info</h2>
                   <div className="card__body-info">
                     <FaPhoneSquareAlt />
-                    <p>(829) 729-7775</p>
+                    <p>(809) 586-0122</p>
                   </div>
                   <div className="card__body-info">
                     <FaMailBulk />
-                    <p></p>
+                    <p>info@jmtv12.com</p>
                   </div>
                 </div>
               </IconContext.Provider>
@@ -378,16 +372,13 @@ const Staff = () => {
                   }}
                 >
                   <div className="social__icons">
-                    <a
-                      href="https://www.facebook.com/orlandomuller"
-                      target="_blank"
-                    >
+                    <a href="https://www.facebook.com/jmtv12" target="_blank">
                       <FaFacebookSquare />
                     </a>
                   </div>
                   <div className="social__icons">
                     <a
-                      href="https://www.instagram.com/orlandomuller7/"
+                      href="https://www.instagram.com/jmtvcanal.12/"
                       target="_blank"
                     >
                       <FaInstagramSquare />
@@ -395,7 +386,7 @@ const Staff = () => {
                   </div>
                   <div className="social__icons">
                     <a
-                      href="https://www.youtube.com/@jmtvcanal1237"
+                      href="https://www.youtube.com/channel/UCR5qt_ljvfQwlgqnnaNWfTA"
                       target="_blank"
                     >
                       <FaYoutube />
@@ -410,10 +401,7 @@ const Staff = () => {
                     </a>
                   </div>
                   <div className="social__icons">
-                    <a
-                      href="https://twitter.com/orlandomuller7"
-                      target="_blank"
-                    >
+                    <a href="https://twitter.com/JMTv82440280" target="_blank">
                       <FaTwitterSquare />
                     </a>
                   </div>
@@ -445,11 +433,11 @@ const Staff = () => {
                   <h2>Contact Info</h2>
                   <div className="card__body-info">
                     <FaPhoneSquareAlt />
-                    <p>(829) 785-9699</p>
+                    <p>(809) 586-0122</p>
                   </div>
                   <div className="card__body-info">
                     <FaMailBulk />
-                    <p></p>
+                    <p>info@jmtv12.com</p>
                   </div>
                 </div>
               </IconContext.Provider>
@@ -460,16 +448,13 @@ const Staff = () => {
                   }}
                 >
                   <div className="social__icons">
-                    <a
-                      href="https://www.facebook.com/orlandomuller"
-                      target="_blank"
-                    >
+                    <a href="https://www.facebook.com/jmtv12" target="_blank">
                       <FaFacebookSquare />
                     </a>
                   </div>
                   <div className="social__icons">
                     <a
-                      href="https://www.instagram.com/orlandomuller7/"
+                      href="https://www.instagram.com/jmtvcanal.12/"
                       target="_blank"
                     >
                       <FaInstagramSquare />
@@ -477,7 +462,7 @@ const Staff = () => {
                   </div>
                   <div className="social__icons">
                     <a
-                      href="https://www.youtube.com/@jmtvcanal1237"
+                      href="https://www.youtube.com/channel/UCR5qt_ljvfQwlgqnnaNWfTA"
                       target="_blank"
                     >
                       <FaYoutube />
@@ -492,10 +477,7 @@ const Staff = () => {
                     </a>
                   </div>
                   <div className="social__icons">
-                    <a
-                      href="https://twitter.com/orlandomuller7"
-                      target="_blank"
-                    >
+                    <a href="https://twitter.com/JMTv82440280" target="_blank">
                       <FaTwitterSquare />
                     </a>
                   </div>

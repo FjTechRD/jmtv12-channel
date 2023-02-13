@@ -100,16 +100,20 @@ textarea {
   gap: 1.4rem;
 }
 
-.react-icons-contact {
-  font-size: 3rem;
-  color: #0059ff;
+.social__icons {
+  color: #a1a1a1;
+  font-size: 2.5rem;
 }
 
+.react-icons-contact:hover,
 .social__icons:hover {
   transform: scale(1.5);
-  filter: brightness(1.75);
-  color: #0400ff;
+  color: #fff;
   transition: all 250ms ease;
+}
+
+.text__social {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -118,6 +122,7 @@ textarea {
   .contact__content-scroll {
     height: 90vh;
     overflow: hidden;
+    display: flex;
   }
 
   .contact__content {
@@ -126,9 +131,20 @@ textarea {
     justify-items: center;
     align-content: center;
     width: 80%;
+    height: 40rem;
     margin: auto auto;
     gap: 4rem;
     padding-top: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .contact-description {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .telephone__number {
+    padding: 0.5rem 0;
   }
 
   .contact__form {
@@ -140,7 +156,9 @@ textarea {
     padding: 2rem 1rem;
     border-radius: 2rem;
     border: solid 2px #fff;
-    width: 80rem;
+    height: 55rem;
+    width: 85rem;
+    font-size: 2.5rem;
   }
   .social-networks {
     display: flex;
@@ -169,11 +187,15 @@ textarea {
     color: #0059ff;
   }
 
+  .react-icons-contact:hover,
   .social__icons:hover {
     transform: scale(1.1);
-    filter: brightness(1.75);
-    color: #0400ff;
+    color: #fff;
     transition: all 250ms ease;
+  }
+
+  .text__social {
+    display: block;
   }
 
   .form__inputs {
